@@ -1,0 +1,13 @@
+This website pays tribute to those who bravely fought cancer and eliminated it from their lives.
+The folder includes 6 webpages,1 css sheet(index1.css) and images and video folder.
+1. index1-It is the basic homepage.
+2. index2-This page inspires the reader from the thoughts of some of the cancer survivors.
+3. index3-This page contains the life stories of our brave cancer survivors.
+4. index4-This page is the donation page so that the funds collected can be used to help them start a new life.
+   By clicking on the DONATE NOW button it gets directed to the payment page.
+5. form- This is the payment page where you can donate the amount you wish.
+6. confetti- Clicking on the PAY button gets us to this page which pays regards to the user for their donation.
+
+
+
+

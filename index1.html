@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="index1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Let's Fight Cancer</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="index1bgVid">
+      <video autoplay muted loop id="myVideo">
+        <source src="vids/cancer-patient-dance.mp4" type="video/mp4">
+      </video>
+      <div class="mainContent index1mainContent">
+        <!--      nav bar-->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index1.html">HOME</a>
+          <a href="index2.html">THOUGHTS</a>
+          <a href="index3.html">LIFE STORY</a>
+          <a href="index4.html">DONATE</a>
+          <a href="#contact">CONTACT US</a>
+        </div>
+
+        <span style="cursor:pointer;font-size: 30px" onclick="openNav()" class="index1Hamburger">&#9776;</span>
+
+        <h1 class="weCanFightHeading">WE CAN FIGHT!</h1>
+        <div class="wrapper index1Wrapper">
+          <div class="container">
+            <h2 class="title index1CardTitle">We Will Heal !!</h2>
+            <p class="description"><img src="images/can%20child.jpg" style="width: 100%"></p>
+          </div>
+
+          <div class="container">
+            <h2 class="title index1CardTitle">We Will Smile !!</h2>
+            <p class="description"><img src="images/can%20child2.jpg" style="width: 100%"></p>
+          </div>
+
+          <div class="container">
+            <h2 class="title index1CardTitle">We Will Shine !!</h2>
+            <p class="description"><img src="images/child3.jpg" style="width: 100%"> </p>
+          </div>
+          <h1 class="letUsPrayHeading">LET US PAY TRIBUTE TO OUR BRAVE CANCER SURVIVORS</h1>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <footer>
+    <div class="footer index1footer">
+      <div class="row-footer">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+
+      <div class="row-footer">
+        <p><a href="#">HAVE QUESTIONS?</a></p><br>
+        <ul>
+
+          <li><a href="https://www.cancer.gov"><a name="contact"></a>💻Visit www.cancer.gov </a></li>
+          <li><a href="#">📞Call 800-232-4636</a></li>
+          <li><a href="#">📧Email WECAN-INFO</a></li>
+          <li><a href="#">❕TERMS & CONDITIONS</a></li>
+          <li><a href="#">🕒Open 24/7</a></li>
+        </ul>
+      </div>
+
+      <div class="row-footer">
+        Copyright © 2021 || Join us on our social platforms and give your support.Each sign up adds one ruppee to their
+        funds.Let us join hands and help them together.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
+
+</body>
+
+</html>
